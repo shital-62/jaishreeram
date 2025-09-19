@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jaishreeram/static/css/main.1654258c.css",
+    "main.js": "/jaishreeram/static/js/main.20d5df66.js",
+    "index.html": "/jaishreeram/index.html",
+    "main.1654258c.css.map": "/jaishreeram/static/css/main.1654258c.css.map",
+    "main.20d5df66.js.map": "/jaishreeram/static/js/main.20d5df66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1654258c.css",
+    "static/js/main.20d5df66.js"
+  ]
+}
