@@ -1,0 +1,49 @@
+.about-page {
+  background: linear-gradient(to bottom right, #f9f9f9, #e6f7ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-header {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.about-header p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.section-row {
+  margin-bottom: 60px;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0066cc;
+  margin-bottom: 15px;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: justify;
+}
+
+.img-fluid {
+  border: 6px solid #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+

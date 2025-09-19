@@ -1,0 +1,85 @@
+.contact-page {
+  background: #f9fbfd;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-card {
+  background: #ffffff;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  width: 100%;
+  max-width: 600px; /* फॉर्मची रुंदी मर्यादित केली */
+}
+
+.form-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #357abd;
+}
+
+.btn-outline-info {
+  border-color: #4a90e2;
+  color: #4a90e2;
+}
+
+.btn-outline-info:hover {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+input.form-control, select.form-select, textarea.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+
+input.form-control:focus, select.form-select:focus, textarea.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}

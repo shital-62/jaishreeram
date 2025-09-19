@@ -1,0 +1,24 @@
+.home-card-img {
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f9f9f9, #f0f8ff);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(135deg, #ffe4ec, #d0f0c0);
+  color: #000; /* ✅ text black on hover */
+}
+
+.custom-card .card-body {
+  text-align: center;
+  padding: 20px;
+}
+
